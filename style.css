@@ -1,0 +1,72 @@
+@import url('c:\Userc:\Users\Dell\AppData\Local\Temp\Rar$DRa9892.4604\REM-Italic-VariableFont_wght.ttfs\Dell\AppData\Local\Temp\Rar$DRa9892.44432\REM-VariableFont_wght.ttf');
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: Italic sans-serif;
+}
+
+body, .container,.contanet{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+body{
+    height: 100vh;
+    background-color: rgba(9, 13, 226, 0.933);
+    
+}
+.container{
+    width: 500px;
+    padding: 30px;
+    border-radius: 5px;
+    background-color: #fff;
+    flex-direction: column;
+
+}
+#img{
+   font-size: 500%;
+}
+#h1{
+  padding: 10px 0px;
+
+}
+
+ .container .contanet{
+    
+    justify-content: space-between;
+    width: 100%;
+    
+    padding: 20px 30px;
+}
+.container .contorls{
+   border: 1px solid black;
+   width: calc(100% / 2 - 5px);
+   padding: 10px;
+   border-radius: 5px;
+   font-size: 16px;  
+}
+select{
+    width: 100%;
+    outline: none;
+    border: none;
+    font-size: 16px;
+}
+
+.container .contanet.disable{
+   
+    opacity: 0.5;
+    pointer-events: none;
+
+}
+
+.container button{
+    width: 90%;
+    background-color:  rgba(9, 13, 226, 0.933);
+    padding: 10px 0px;
+    font-size: 16px;
+    border-radius: 10px;
+    color: #fff;
+    outline: none;
+}
